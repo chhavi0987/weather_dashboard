@@ -9,7 +9,7 @@ cityInput.addEventListener("keydown",function(event){
         }
     }
 )
-     const apiKey="f21e7ff1b87ae1dc06530c47a3fa0ffc";
+     const apiKey=API KEY;
       const apiURL= "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
       let weathericon=document.querySelector(".icon img");
     
