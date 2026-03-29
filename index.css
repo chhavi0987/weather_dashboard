@@ -1,0 +1,129 @@
+html body{
+    height:100%;
+    margin:0;
+}
+body{
+    background-image: url(images/backgrnd.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.header{
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+}
+.app_title{
+    display: flex;
+}
+.app_title img{
+    margin-right: 0;
+}
+.app_title h2{
+    margin-left: 0px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-right: 70px;
+}
+.header h2{
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}
+.search_city{ 
+    height:30px;
+    width: 350px;
+    padding: 2px;
+    flex-direction: row;
+    border-radius: 15px;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    font-weight: bold;
+    
+}
+.city h1{
+    text-align: center;
+    font-weight: lighter;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+    
+}
+.icon{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.icon img{
+    height: 40px;
+    width:40px;
+}
+.temp{
+    padding-top: 0px;
+    text-align: center;
+}
+.temp p{
+    margin-top: 10px;
+    font-size:45px;
+    margin-bottom: 0;
+}
+.temp h2{
+    margin-top: 5px;
+    font-size:25px;
+    font-weight: lighter;
+}
+.details1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+.details2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+.Forecast{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
+.day{ 
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.day img{
+    height: 30px;
+    align-items: center;
+}
+.day h2{
+    font-size: large;
+}
+
+.icon img{
+    width: 80px;
+    height: 80px;
+}
+
+.day img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
